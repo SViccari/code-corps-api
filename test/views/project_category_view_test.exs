@@ -18,7 +18,7 @@ defmodule CodeCorps.ProjectCategoryViewTest do
     expected_json = %{
       data: %{
         id: project_category.id |> Integer.to_string,
-        type: "project_category",
+        type: "project-category",
         attributes: %{},
         relationships: %{
           "category" => %{
